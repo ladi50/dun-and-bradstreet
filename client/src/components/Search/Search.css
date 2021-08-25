@@ -1,0 +1,33 @@
+.searchContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    position: relative;
+    max-width: 400px;
+    min-width: 300px;
+}
+
+.searchContainer > input {
+    padding: 10px 10px 10px 20px;
+    border-radius: 40px;
+    width: 100%;
+    outline-width: 0;
+    font-size: 16px;
+    border: 2px solid lightgray;
+}
+
+.searchContainer > input:focus {
+    border: 2px solid gray;
+}
+
+.searchContainer > svg {
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+    color: #4c4c4c;
+}
+
+.searchContainer > svg:hover {
+    color: black;
+}
