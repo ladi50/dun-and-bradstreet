@@ -3,7 +3,7 @@
 ## Client Directory:
 
 1. npm install
-2. add .env.local file exactly as .env.local.example
+2. Add .env.local file exactly as .env.local.example
 3. npm start
 
 ## Server Directory:
